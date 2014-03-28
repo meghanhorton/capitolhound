@@ -12,7 +12,7 @@
 
 <h3>Demo</h3>
 
-<p>A demo can be viewed at <a href="http://capitolhound.com/thermometer.html">capitolhound.com/thermometer.html"></p>
+<p>A demo can be viewed at <a href="http://capitolhound.com/thermometer.html">capitolhound.com/thermometer.html</p>
 
 <h3>Compatibility</h3>
 
