@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>Capitol Hound Goals</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/cover.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+	<style>
+	.thermometer{
+		margin: auto;
+		width: 25%;
+		min-height: 400px;
+		display: table;
+		border: 2px solid #ccc;
+		vertical-align: bottom;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		overflow: hidden;
+		background: rgba(255,255,255,0.25);
+	}
+		#percentage{
+			vertical-align: bottom;
+			display: table-cell;
+		}
+			#percentage .inner{
+				width: 100%;
+				background: #8BC656;
+				display: block;
+				max-height: 400px;
+				padding: 0;
+			}
+
+		.row{
+			padding-top: 2em;
+		}
+
+	h2{
+		font-size: 400%;
+	}
+
+	#goal{
+		font-size: 50%;
+		opacity: 0.5;
+	}
+
+	#celebrate{
+		display: none;
+	}
+	</style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+	<body>
+		<div class="site-wrapper" id="home">
+	      <div class="site-wrapper-inner center">
+	        <div class="cover-container">
+	        	<h1>Hound-o-meter</h1>
+	        	<div class="row">
+	        		<div class="col-xs-6">
+	        			<div class="thermometer">
+					      	<div id="percentage">
+					      		<div class="inner">&nbsp;</div>
+					      	</div>
+				      	</div>
+	        		</div>
+
+	        		<div class="col-xs-6">
+	        			  <img id="caphound" src="assets/images/CapitolHound_WhiteandGreen.png" height="150">
+	        			  <h2 id="subscribers"><span id="goal">/</span></h2>
+	        			  <h4>Subscribers</h4>
+	        			  <hr/>
+					      <h2 id="money"></h2>
+	        		</div>
+	        	</div>
+		      
+		      
+	      </div>
+	    </div>
+	    <div id="celebrate"></div>
+	</body>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.imgexplosion.js" type="text/javascript"></script>
+<script src="assets/js/calculations.js" type="text/javascript"></script>
+
+</html>
